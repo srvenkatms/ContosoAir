@@ -7,12 +7,7 @@ steps:
     inputs:
       command: 'custom'
       customcommand: 'install --production'
-  - script: |
-      npm install
-      npm test
-    displayName: 'Run unit tests'
-    continueOnError: true
-  
+
   - task: ArchiveFiles@2
     displayName: 'Archive sources'
     inputs:
