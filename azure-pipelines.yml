@@ -7,7 +7,7 @@ steps:
     inputs:
       command: 'custom'
       customcommand: 'install --production'
- 
+
   - task: ArchiveFiles@2
     displayName: 'Archive sources'
     inputs:
